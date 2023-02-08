@@ -29,7 +29,7 @@ The ground station is a single board computer, LoRa feather module, SDRplay Dong
 #### Bill of Materials for the Ground Station
 * LePotato
 * Adafruit LoRa Feather
-* SDRplay Dongle
+* RTL-SDR Dongle
 * power stuff
 * enclosure
 
