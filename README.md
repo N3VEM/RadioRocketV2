@@ -4,14 +4,14 @@ I'm just starting to capture details here.  Plan is to have this mostly fleshed 
 
 This repository contains information related to version 2 of my [radio rocket project.](https://n3vem.com/rocket)
 
-## APRS In the Rocket
+## APRS in the Rocket
 APRS tracking is used in the rocket primarily for position data, mapping, and tracking. A 'fun' challenge here will be to see how far away the rocket gets picked directly via an RF APRS station or I-gate.
 
 #### Bill of Materials for APRS in the Rocket
 * [lightAPRS-W 2.0](https://www.qrp-labs.com/lightaprsw2.html).
   * Set up according to the information available on the [lightAPRS-W 2.0 github page.](https://github.com/lightaprs/LightAPRS-W-2.0), with modifications.
 
-## LoRa & Telemetry In the Rocket
+## LoRa & Telemetry in the Rocket
 The rocket uses 70cm LoRa to send telemetry packets, relay messages, and respond to commands.
 
 #### Bill of Materials for LoRa and Telemetry in the Rocket
