@@ -1,4 +1,4 @@
-In addition to the files above, you'll also want to go out and get the libraries below:
+In addition to the libraries in this folder, you'll also want to go out and get the libraries below:
 
 [ArduinoJson](https://arduinojson.org/)
 
