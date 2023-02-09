@@ -15,13 +15,3 @@ The rocket uses 70cm LoRa to send telemetry packets, relay messages, and respond
 ## Ground Station
 The ground station is a single board computer, LoRa feather module, SDRplay Dongle, and all the associated wiring and power components, built into a project enclosure. It's primary purpose is to receive the LoRa and APRS data, and then act as a server to serve up that data via node-red and/or sound packet modem to a web browser and APRS client running on a connected device (a laptop, tablet, etc.)
 
-#### Bill of Materials for the Ground Station
-* LePotato
-* Adafruit LoRa Feather
-* RTL-SDR Dongle
-* power stuff
-* enclosure
-
-## Node-Red - Served by the Ground Station
-a node red dashboard served up by the ground station can display the telemetry data sent by the rocket.  
-
