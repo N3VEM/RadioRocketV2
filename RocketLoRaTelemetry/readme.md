@@ -27,7 +27,7 @@ Some of the parts quantities here give a range, because the length and quantity 
 * Whatever material tickles your fancy for the sled - thin plywood, fiberglass sheets, etc.
 * Foil tape.  Make sure to get the actual conductive metal tape, not just silver colored plastic tape. 
 
-### Physical Construction.
+### Physical Construction
 More details to come, maybe. I'd like to give step by step directions, but I've got 4 kids and finding time to document this stuff is hard :-) Refer to pictures for reference. Some construction tips below to help you along your way however.
 
 To get the end peices to the correct diamater, use a hole-saw as close in size as you can to make a plug. put a bolt through the middle, clamp the bolt in a drill, and spin the plug against a peice of sandpaper to get it down to size.
