@@ -1,1 +1,6 @@
-more details on the ground station to go here
+### Bill of Materials for the Ground Station
+* LePotato
+* Adafruit LoRa Feather
+* RTL-SDR Dongle
+* power stuff
+* enclosure
