@@ -4,7 +4,10 @@
 * [lightAPRS-W 2.0](https://www.qrp-labs.com/lightaprsw2.html).
 * Materials of your choice for building the sled to hold it (I used some bits of perf board for mine)
 * 9v Battery and terminal for powering the tracker.
+* Zip ties
 * [SMA edge connectors](https://amzn.to/3HIC7rE)
+* Super Glue
+* 5 min Epoxy
 
 ### Physical Construction
 Use a hole saw of the proper diamater to cut the ends of the sled to the desired size, to fit inside your body tube. if you don't have the exact size needed, use one size larger, then put a bolt through the middle, clamp the bolt into your drill chuck, and use the drill to spin the disks against a peice of sandpaper until they are sanded down to the needed diamater.  
