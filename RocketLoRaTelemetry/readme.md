@@ -41,5 +41,8 @@ For the Teensy and LoRa Breakout, I used the headers and pins to attach them bot
 
 Until I get to document the exact wiring, you should also be able to glean it from the Arduino code as the pins used are referenced there.
 
+### Antenna
+The antenna is a slot antenna. Put a peice of metal foil tape on the sled, and use an exacto knife to cut out the slot. It should work fine if the slot wraps around itself like mine does.  This should be cut for the frequency of the LoRa module.  [W6NBC has all the details you'll need](https://www.youtube.com/watch?v=MNqqvYlifyw) on this style of antenna.
+
 ### The Code
 See code files in this folder. Just be certain to edit things there to be your callsign, and not mine :-)  I'm not a software engineer, so the code is mostly bodged together examples, with my additions - after all, this is just for fun! If you think the code sucks, you can either stuff it, or make a pull request :-)
