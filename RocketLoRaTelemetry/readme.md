@@ -37,7 +37,7 @@ For mounting the breakout boards, I used the boards themselves to mark the locat
 ### Wiring
 Breakout boards follow the standard wiring as described in their respetive Adafrut documents and the pinouts as labled for the PJRC Teensy.  I'll try to add some additional detail on this in the future, but in the meantime feel free to contact me if you need specifics, and I'll use that as the fire under my you-know-what to get that documentation done:-).
 
-For the Teensy and LoRa Breakout, I used the headers and pins to attach them both to piece of strip board, and then used jumper wires on the stripboard useing [The lost are of Strip Board Prototyping](https://www.nutsvolts.com/magazine/article/june2013_Dratwa) to make the interconnections.
+For the Teensy and LoRa Breakout, I used the headers and pins to attach them both to piece of strip board, and then used jumper wires on the stripboard using [The Lost Art of Strip Board Prototyping](https://www.nutsvolts.com/magazine/article/june2013_Dratwa) to make the interconnections.
 
 Until I get to document the exact wiring, you should also be able to glean it from the Arduino code as the pins used are referenced there.
 
