@@ -1,13 +1,13 @@
 ### Bill of Materials for APRS in the Rocket
 * [lightAPRS-W 2.0](https://www.qrp-labs.com/lightaprsw2.html).
-* Materials of your choice for building the sled to hold it
+* Materials of your choice for building the sled to hold it (I used some bits of perf board for mine)
 * 9v Battery and terminal for powering the tracker.
-* SMA edge connectors
+* [SMA edge connectors](https://amzn.to/3HIC7rE)
 
 ### Physical Construction
 Use a hole saw of the proper diamater to cut the ends of the sled to the desired size, to fit inside your body tube. if you don't have the exact size needed, use one size larger, then put a bolt through the middle, clamp the bolt into your drill chuck, and use the drill to spin the disks against a peice of sandpaper until they are sanded down to the needed diamater.  
      
-Cut the slot that supports the battery, and the notches on the side of the sled that will prevent the zip ties from sliding around. I did this cutting with a pair of nibblers, but careful use of a dremel tool should do the job as well.  
+Cut the slot that supports the battery, and the notches on the side of the sled that will prevent the zip ties from sliding around. I did this cutting with a [pair of nibblers](https://amzn.to/3xcUHmM), but careful use of a dremel tool should do the job as well.  
      
 Use the tracker to mark the hole locations to attach the tracker to the sled, and drill out holes that will fit M2 hardward.
      
