@@ -12,15 +12,6 @@ APRS tracking is used in the rocket primarily for position data, mapping, and tr
 ## LoRa & Telemetry in the Rocket
 The rocket uses 70cm LoRa to send telemetry packets, relay messages, and respond to commands.
 
-#### Bill of Materials for LoRa and Telemetry in the Rocket
-* PJRC Teensy
-* Adafruit LoRa Breakout
-* (2) Relay boards
-* sensor breakout 1
-* sensor breakout 2
-* sensor breakout 3
-* sensor breakout 4
-
 ## Ground Station
 The ground station is a single board computer, LoRa feather module, SDRplay Dongle, and all the associated wiring and power components, built into a project enclosure. It's primary purpose is to receive the LoRa and APRS data, and then act as a server to serve up that data via node-red and/or sound packet modem to a web browser and APRS client running on a connected device (a laptop, tablet, etc.)
 
