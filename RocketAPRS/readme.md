@@ -26,4 +26,4 @@ Use super glue to tack and hold the other end in position, and then add epoxy fi
 ### Software
 * Set up will be done primarily using the information available on the [lightAPRS-W 2.0 github page.](https://github.com/lightaprs/LightAPRS-W-2.0).
 * After all the directions there are completed, you can use the .ino file located here, instead of the 'factory default'.  Just be certain to modify the code where noted.
- * .ino file will be uploaded here after some initial testing.   I don't want to upload code that might damage your equipment before testing it on my own :-)
+     * .ino file will be uploaded here after some initial testing.   I don't want to upload code that might damage your equipment before testing it on my own :-)
