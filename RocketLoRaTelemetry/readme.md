@@ -1,3 +1,5 @@
+## LoRa and Telemetry in the Rocket
+
 ### Bill of Materials for LoRa and Telemetry in the Rocket
 Some of the parts quantities here give a range, because the length and quantity of things like jumper wires etc. might change depending on how you lay out your hardware when you build it.
 
@@ -23,3 +25,21 @@ Some of the parts quantities here give a range, because the length and quantity 
 * Threaded Rod
 * Small eye bolts
 * Whatever material tickles your fancy for the sled - thin plywood, fiberglass sheets, etc.
+* Foil tape.  Make sure to get the actual conductive metal tape, not just silver colored plastic tape. 
+
+### Physical Construction.
+More details to come, maybe. I'd like to give step by step directions, but I've got 4 kids and finding time to document this stuff is hard :-) Refer to pictures for reference. Some construction tips below to help you along your way however.
+
+To get the end peices to the correct diamater, use a hole-saw as close in size as you can to make a plug. put a bolt through the middle, clamp the bolt in a drill, and spin the plug against a peice of sandpaper to get it down to size.
+
+For mounting the breakout boards, I used the boards themselves to mark the locations of the mounting points, I then drilled holes into the sled big enough that standoffs would fit inside the hole with their tops sticking out, and I epoxied them into the holes.
+
+### Wiring
+Breakout boards follow the standard wiring as described in their respetive Adafrut documents and the pinouts as labled for the PJRC Teensy.  I'll try to add some additional detail on this in the future, but in the meantime feel free to contact me if you need specifics, and I'll use that as the fire under my you-know-what to get that documentation done:-).
+
+For the Teensy and LoRa Breakout, I used the headers and pins to attach them both to piece of strip board, and then used jumper wires on the stripboard useing [The lost are of Strip Board Prototyping](https://www.nutsvolts.com/magazine/article/june2013_Dratwa) to make the interconnections.
+
+Until I get to document the exact wiring, you should also be able to glean it from the Arduino code as the pins used are referenced there.
+
+### The Code
+See code files in this folder. Just be certain to edit things there to be your callsign, and not mine :-)
