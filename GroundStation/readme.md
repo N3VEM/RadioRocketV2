@@ -25,3 +25,9 @@ The ground station may look impressive, but I promise it's not too complicated!
 * [Barrel Jack](https://amzn.to/3DXKkHn)
 * Zip Ties, Zip Tie Mounts
 * [Enclosure](https://amzn.to/3HPVTBr)
+
+### Physical Construction
+I have 4 kids, so I probably won't find time to do a step by step.  Build to suit, refer to pictures in this folder for inspiration, and feel free to contact me if you have specific questions :-)
+
+### Software
+Coming soon...
