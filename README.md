@@ -4,12 +4,10 @@ I'm just starting to capture details here.  Plan is to have this mostly fleshed 
 
 This repository contains information related to version 2 of my [radio rocket project.](https://n3vem.com/rocket)
 
-## APRS in the Rocket
-APRS tracking is used in the rocket primarily for position data, mapping, and tracking. A 'fun' challenge here will be to see how far away the rocket gets picked directly via an RF APRS station or I-gate.
+More specific details can be round in the readme within each folder, for the various sections of the rocket.
 
-#### Bill of Materials for APRS in the Rocket
-* [lightAPRS-W 2.0](https://www.qrp-labs.com/lightaprsw2.html).
-  * Set up according to the information available on the [lightAPRS-W 2.0 github page.](https://github.com/lightaprs/LightAPRS-W-2.0), with modifications.
+## APRS in the Rocket
+APRS tracking is used in the rocket primarily for position data, mapping, and tracking. Track how high your rocket went, and how far away it's packets were received. The APRS sled can be done stand-alone without the rest of the project, if you simply want to beacon packets, and then check aprs.fi for data. Building the APRS tracker only would rely on their being at least 1 I-Gate within range of your launch site.
 
 ## LoRa & Telemetry in the Rocket
 The rocket uses 70cm LoRa to send telemetry packets, relay messages, and respond to commands.
