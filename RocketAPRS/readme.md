@@ -1,4 +1,4 @@
-##APRS in the Rocket
+## APRS in the Rocket
 
 ### Bill of Materials for APRS in the Rocket
 * [lightAPRS-W 2.0](https://www.qrp-labs.com/lightaprsw2.html).
