@@ -4,7 +4,7 @@ I'm just starting to capture details here.  Plan is to have this mostly fleshed 
 
 This repository contains information related to version 2 of my [radio rocket project.](https://n3vem.com/rocket)
 
-More specific details can be round in the readme within each folder, for the various sections of the rocket.
+More specific details can be found in the readme within each folder, for the various components of the rocket.
 
 Please note that this repository isn't step-by-step directions. It's more of a 'show them where to fish' thing, so if you are wanting to replicate this project, and have any questions, please feel free to reach out to me!
 
@@ -15,5 +15,5 @@ APRS tracking is used in the rocket primarily for position data, mapping, and tr
 The rocket uses 70cm LoRa to send telemetry packets, relay messages, and respond to commands.
 
 ## Ground Station
-The ground station is a single board computer, LoRa feather module, SDRplay Dongle, and all the associated wiring and power components, built into a project enclosure. It's primary purpose is to receive the LoRa and APRS data, and then act as a server to serve up that data via node-red and/or sound packet modem to a web browser and APRS client running on a connected device (a laptop, tablet, etc.)
+The ground station is a single board computer, LoRa feather module, SDRplay Dongle, and all the associated wiring and power components, built into a project enclosure. It's primary purpose is to receive the LoRa and APRS data, and then act as a server to serve up that data via node-red and and a networked sound modem so that it can be displayed in a web browser and APRS client running on any other network connected device (a laptop, tablet, etc.)
 
