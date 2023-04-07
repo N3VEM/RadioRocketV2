@@ -40,5 +40,5 @@ Follow the initial steps on first boot to update passwords, create users etc.
 
 [install direwolf](https://github.com/wb2osz/direwolf#linux---using-git-clone-recommended)
 
-Install RTL-SDR command line tools
+Install RTL-SDR command line tools  
 ```sudo apt install rtl-sdr```
