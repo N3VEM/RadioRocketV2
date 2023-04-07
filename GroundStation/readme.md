@@ -56,7 +56,7 @@ and then add these lines which will start the rtl dongle, direwolf, and turn on 
 * * * * * systemctl is-active --quiet nodered && sudo gpioset 1 84=1; systemctl is-active --quiet nodered || sudo gpioset 1 84=0
 ```
 
-import the flow located here in the node-red folder into node red.
+import the flow located here in the folder,into node red.
 
 via node red pallete, you'll need to add:
 node-red-contrib-mastodon
