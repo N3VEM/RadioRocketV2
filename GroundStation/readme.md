@@ -30,4 +30,15 @@ The ground station may look impressive, but I promise it's not too complicated!
 I have 4 kids, so I probably won't find time to do a step by step.  Build to suit, refer to pictures in this folder for inspiration, and feel free to contact me if you have specific questions :-)
 
 ### Software
-Coming soon...
+In Progress...
+
+Download Armbian CLI Image from [here](https://www.armbian.com/lepotato/)  
+
+Burn to SD Card, install in LePotato, connect to network, and boot it up.
+
+Follow the initial steps on first boot to update passwords, create users etc.
+
+[install direwolf](https://github.com/wb2osz/direwolf#linux---using-git-clone-recommended)
+
+Install RTL-SDR command line tools
+```sudo apt install rtl-sdr```
