@@ -65,5 +65,19 @@ node-red-dashboard
 node-red-node-serialport
 node-red-node-smooth
 
+make a file /usr/lib/systemd/system-shutdown/ledOff.sh  
+with the contents:  
+```
+#!/bin/bash
+sudo gpioset 1 81=0
+sudo gpioset 1 82=0
+sudo gpioset 1 83=0
+sudo gpioset 1 84=0
+sudo gpioset 1 85=0
+sudo gpioset 1 86=0 
+```
+The above will make sure that the GPIO connected led's turn off when shutting down.
+
+
 There will be some other errors to resolve probably - ping me on mastodon, or I'm good on QRZ and I can help you out.
 
