@@ -40,7 +40,7 @@ Follow the initial steps on first boot to update passwords, create users etc.
 
 [install direwolf](https://github.com/wb2osz/direwolf#linux---using-git-clone-recommended)
 
-'''sudo apt install pkg-config'''  
+```sudo apt install pkg-config```  
 
 Install RTL-SDR command line tools using [these directions](https://github.com/wb2osz/direwolf/blob/master/doc/Raspberry-Pi-SDR-IGate.pdf)
 this will fail with errors if you don't install pkg-config first.  
@@ -48,13 +48,13 @@ this will fail with errors if you don't install pkg-config first.
 install [node red](https://nodered.org/docs/getting-started/raspberrypi)  
 
 edit your crontab:  
-'''sudo crontab -e'''  
+```sudo crontab -e```  
 and then add these lines which will start the rtl dongle, direwolf, and turn on the attached LEDs to indicate stuff is working
-'''
+```
 @reboot sleep 30 && rtl_fm -f 144.39M - | direwolf -c sdr.conf -r 24000 -D 1 - 
 @reboot sudo gpioset 1 83=1
 * * * * * systemctl is-active --quiet nodered && sudo gpioset 1 84=1; systemctl is-active --quiet nodered || sudo gpioset 1 84=0
-'''
+```
 
 import the flow located here in the node-red folder into node red.
 
